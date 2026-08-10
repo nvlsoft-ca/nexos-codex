@@ -1,5 +1,11 @@
 # Release notes
 
+## 0.1.0-beta.2
+
+- Supersedes `0.1.0-beta.1` for tag-based installation.
+- Preserves the reviewed bundle bytes in Git so `RELEASE.json` integrity checks remain valid.
+- Closed beta for Codex Desktop and the Codex CLI.
+
 ## 0.1.0-beta.1
 
 - Closed beta for Codex Desktop and the Codex CLI.
