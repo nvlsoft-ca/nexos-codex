@@ -1,4 +1,4 @@
 interface:
   display_name: "Nexos Work Tracking"
   short_description: "Manage Nexos work with canonical links"
-  default_prompt: "Show my active Nexos issues and milestones with canonical links."
+  default_prompt: "Show my active Nexos issues, milestones, and feedback with canonical links where available."

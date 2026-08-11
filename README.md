@@ -47,7 +47,7 @@ The plugin connects only to `https://mcp.dev.nexos.ca/mcp` and reads the token o
 Git tags and GitHub releases are immutable. To reinstall a specific version in a clean Codex marketplace configuration, use its release tag instead of `main`, for example:
 
 ```powershell
-codex plugin marketplace add nvlsoft-ca/nexos-codex --ref v0.1.0-beta.2
+codex plugin marketplace add nvlsoft-ca/nexos-codex --ref v0.1.0-beta.3
 codex plugin add nexo@nexos
 ```
 

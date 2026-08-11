@@ -2,8 +2,8 @@
     "schemaVersion":  1,
     "marketplace":  "nexos",
     "plugin":  "nexo",
-    "version":  "0.1.0-beta.2",
-    "tag":  "v0.1.0-beta.2",
+    "version":  "0.1.0-beta.3",
+    "tag":  "v0.1.0-beta.3",
     "repository":  "https://github.com/nvlsoft-ca/nexos-codex",
     "files":  [
                   {
@@ -18,13 +18,13 @@
                   },
                   {
                       "path":  "README.md",
-                      "sha256":  "ca9c89c028d398f05d3fb626e024c7907d46efc6898df9431c9e92c65a722bcd",
+                      "sha256":  "c876549f65f8bd76e40bb7318919c14e98b63385383ce3cf6008e6d5999e0619",
                       "sizeBytes":  2199
                   },
                   {
                       "path":  "RELEASE_NOTES.md",
-                      "sha256":  "a190741b69cbde9e7f46ef920637e61ac2055a33b187442edd9fcf7b5672227f",
-                      "sizeBytes":  669
+                      "sha256":  "9392c50271c4b7fd2013a66e838ea7f9d21872e38b6f3e229511b37078d1eaaf",
+                      "sizeBytes":  877
                   },
                   {
                       "path":  "SECURITY.md",
@@ -33,8 +33,8 @@
                   },
                   {
                       "path":  "plugins/nexo/.codex-plugin/plugin.json",
-                      "sha256":  "dfe2e6ca566153e9b23a7c7328d179df73be0167ed0e0639c74f80aca529ebe8",
-                      "sizeBytes":  1278
+                      "sha256":  "714375ce99b2d40f3dc23092fef30006c82ec0921b9770773195d777c1f041a9",
+                      "sizeBytes":  1302
                   },
                   {
                       "path":  "plugins/nexo/.mcp.json",
@@ -48,13 +48,13 @@
                   },
                   {
                       "path":  "plugins/nexo/skills/nexo-work-tracking/SKILL.md",
-                      "sha256":  "aeff1d9f69e27b7780fa8a1edc0575e9a79bfde45ef081712c05a9ca5da1b1fc",
-                      "sizeBytes":  3754
+                      "sha256":  "27031167ef15ae82a33df7dfc27d804177ab526079b0cbdbcfd837ef2e60f124",
+                      "sizeBytes":  4437
                   },
                   {
                       "path":  "plugins/nexo/skills/nexo-work-tracking/agents/openai.yaml",
-                      "sha256":  "4024cd0ce9e4b707550dc79ade9abdad2bdfb0fd3094c30f1186a2910bc177c1",
-                      "sizeBytes":  196
+                      "sha256":  "ca330a94e243a29ed0083f38609d206e6ed4d62fca3cb52492389d1bcc0940d1",
+                      "sizeBytes":  223
                   }
               ]
 }

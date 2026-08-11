@@ -41,6 +41,14 @@ Example: write `[Sprint 8](https://nexo.example/.../milestones/...)`, not `Sprin
 - `create_label` accepts a workspace and name, requires Owner/Admin access, and returns the API-generated initial color. Use Nexos Web for later recolor, rename, archive, or restore actions.
 - Pass optional `labelIds` to `create_issue` to attach up to 25 active Labels atomically during creation. Labels must belong to the Issue workspace.
 
+## Handle Nexos feedback
+
+- Feedback is only about the Nexos product. Never use these tools to route feedback to another Project.
+- Use `submit_feedback` with only category, message, and the optional anonymous flag. Never ask for or infer destination IDs or a submitter identity.
+- Warn before an anonymous submission that it cannot be listed later and cannot receive a public response.
+- Use `list_my_feedback` and `get_feedback` only for the authenticated user's identified submissions.
+- Use `publish_feedback_response` only as an authorized reviewer and with the latest opaque feedback version. Keep internal Issue comments private; use the normal Issue tools for backlog work.
+
 ## Handle Issue attachments safely
 
 - `list_issue_attachments` returns bounded canonical metadata only.

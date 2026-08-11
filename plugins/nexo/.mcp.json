@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "nexo": {
-      "type": "http",
-      "url": "https://mcp.dev.nexos.ca/mcp",
-      "bearer_token_env_var": "NEXO_MCP_TOKEN"
-    }
-  }
-}

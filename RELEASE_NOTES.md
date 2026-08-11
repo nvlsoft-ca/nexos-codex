@@ -1,5 +1,10 @@
 # Release notes
 
+## 0.1.0-beta.3
+
+- Adds Nexos-only feedback submission, personal status tracking, and reviewer public responses.
+- Keeps anonymous feedback write-only and excludes internal backlog routing from MCP outputs.
+
 ## 0.1.0-beta.2
 
 - Supersedes `0.1.0-beta.1` for tag-based installation.
