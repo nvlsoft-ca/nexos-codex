@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.1.0-beta.4
+
+- Adds Claude Code manifests so the same bundle installs as `nexo@nexos` in Claude Code.
+- The Claude MCP entry authenticates with an `Authorization: Bearer ${NEXO_MCP_TOKEN}` header read from the environment; the Codex configuration is unchanged.
+- Documents installation, update, and tag rollback for Claude Code, the supported Claude surface in this beta.
+- Manifest validation and a clean install from the exported repository were verified with Claude Code `2.1.283` on Windows; the install reports one `nexo` MCP server, a missing token is rejected with HTTP 401, and with a personal token the server connects and a read-only current-user call succeeds.
+- Claude Code support starts with this version; earlier tags install only in Codex.
+
 ## 0.1.0-beta.3
 
 - Adds Nexos-only feedback submission, personal status tracking, and reviewer public responses.

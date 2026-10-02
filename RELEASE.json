@@ -2,8 +2,8 @@
     "schemaVersion":  1,
     "marketplace":  "nexos",
     "plugin":  "nexo",
-    "version":  "0.1.0-beta.3",
-    "tag":  "v0.1.0-beta.3",
+    "version":  "0.1.0-beta.4",
+    "tag":  "v0.1.0-beta.4",
     "repository":  "https://github.com/nvlsoft-ca/nexos-codex",
     "files":  [
                   {
@@ -12,28 +12,38 @@
                       "sizeBytes":  353
                   },
                   {
+                      "path":  ".claude-plugin/marketplace.json",
+                      "sha256":  "5aced7a9ae7a29dcc5b12575db031f4fee873d0f8f0b53dae2d17ef9e8108a93",
+                      "sizeBytes":  386
+                  },
+                  {
                       "path":  "LICENSE.md",
-                      "sha256":  "b985648b1b13db8cfe6225772826f174cd2dd8da3e378385b01a3353cb442e88",
-                      "sizeBytes":  960
+                      "sha256":  "454bd9caecfd178bc01bbe8d3a48e162b3b18e4246e886dc46b39db4cba69a52",
+                      "sizeBytes":  975
                   },
                   {
                       "path":  "README.md",
-                      "sha256":  "c876549f65f8bd76e40bb7318919c14e98b63385383ce3cf6008e6d5999e0619",
-                      "sizeBytes":  2199
+                      "sha256":  "72b20d524d64acff3e12c2ee93590e25c04076f0efadc6f583cb14a15106a49f",
+                      "sizeBytes":  3977
                   },
                   {
                       "path":  "RELEASE_NOTES.md",
-                      "sha256":  "9392c50271c4b7fd2013a66e838ea7f9d21872e38b6f3e229511b37078d1eaaf",
-                      "sizeBytes":  877
+                      "sha256":  "913f185bed6c6a8f123d78b1e2141408b1bcc91d00faface56ded89a68e30ed1",
+                      "sizeBytes":  1638
                   },
                   {
                       "path":  "SECURITY.md",
-                      "sha256":  "dcadb60815813775b94cafb766c4657aaba1c5d923d60ec083d016fd16eb6060",
-                      "sizeBytes":  645
+                      "sha256":  "727ffdebcd5492b8b7b8c7e0c83ba4bda37f9495af1e93dd58e7f4a510aecac3",
+                      "sizeBytes":  796
+                  },
+                  {
+                      "path":  "plugins/nexo/.claude-plugin/plugin.json",
+                      "sha256":  "a8c538773bbf4234dd6f3ee7175d324132d31a23d3e87f12d6dad782d7dbeee1",
+                      "sizeBytes":  709
                   },
                   {
                       "path":  "plugins/nexo/.codex-plugin/plugin.json",
-                      "sha256":  "714375ce99b2d40f3dc23092fef30006c82ec0921b9770773195d777c1f041a9",
+                      "sha256":  "9742ec7f8e67d3e014a509925aef01db9afdae5d6b3e0304d55054ae405b5f1c",
                       "sizeBytes":  1302
                   },
                   {
