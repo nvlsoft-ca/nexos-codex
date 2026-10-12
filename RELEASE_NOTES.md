@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.2.0-beta.1
+
+- Replaces the single `nexo` plugin with one plugin per environment: `nexos` connects to `https://mcp.nexos.ca/mcp` with `NEXOS_MCP_TOKEN`, and `nexos-dev` connects to `https://mcp.dev.nexos.ca/mcp` with `NEXO_MCP_TOKEN`.
+- Each plugin names its MCP server after itself, so both can be installed side by side with separate tokens.
+- `nexos` connects once the Nexos service at nexos.ca opens; closed-beta testers move from `nexo@nexos` to `nexos-dev@nexos` and keep their stored token.
+- `RELEASE.json` lists both plugins, and every Nexos site serves the same ZIP.
+
 ## 0.1.0-beta.4
 
 - Adds Claude Code manifests so the same bundle installs as `nexo@nexos` in Claude Code.
