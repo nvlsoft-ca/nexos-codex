@@ -1,0 +1,22 @@
+{
+  "name": "nexos",
+  "description": "Nexos beta plugins: nexos for nexos.ca and nexos-dev for the development service.",
+  "owner": {
+    "name": "NVLSoft",
+    "url": "https://github.com/nvlsoft-ca"
+  },
+  "plugins": [
+    {
+      "name": "nexos",
+      "source": "./plugins/nexos",
+      "description": "Manage Nexos work and submit product feedback through the Nexos MCP server at nexos.ca.",
+      "category": "productivity"
+    },
+    {
+      "name": "nexos-dev",
+      "source": "./plugins/nexos-dev",
+      "description": "Manage work in the Nexos development service and submit product feedback through its MCP server.",
+      "category": "productivity"
+    }
+  ]
+}

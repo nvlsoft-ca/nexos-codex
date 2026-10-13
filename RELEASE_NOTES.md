@@ -1,5 +1,11 @@
 # Release notes
 
+## 0.2.0-beta.2
+
+- Fixes installation from GitHub: `0.2.0-beta.1` was published without the dot-prefixed files (`.claude-plugin`, `.codex-plugin`, `.mcp.json`, `.agents`), so neither Claude Code nor Codex could install it. Use this version or later.
+- The publisher now stages hidden files and refuses to publish unless every manifest listed in `RELEASE.json` is present in the public repository.
+- Plugin content is otherwise unchanged from `0.2.0-beta.1`.
+
 ## 0.2.0-beta.1
 
 - Replaces the single `nexo` plugin with one plugin per environment: `nexos` connects to `https://mcp.nexos.ca/mcp` with `NEXOS_MCP_TOKEN`, and `nexos-dev` connects to `https://mcp.dev.nexos.ca/mcp` with `NEXO_MCP_TOKEN`.

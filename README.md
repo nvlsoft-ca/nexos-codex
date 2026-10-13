@@ -107,15 +107,15 @@ claude plugin install nexos@nexos
 Git tags and GitHub releases are immutable. To reinstall a specific version in a clean marketplace configuration, use its release tag instead of `main`, for example:
 
 ```powershell
-codex plugin marketplace add nvlsoft-ca/nexos-codex --ref v0.2.0-beta.1
+codex plugin marketplace add nvlsoft-ca/nexos-codex --ref v0.2.0-beta.2
 codex plugin add nexos@nexos
 ```
 
 ```powershell
-claude plugin marketplace add nvlsoft-ca/nexos-codex#v0.2.0-beta.1
+claude plugin marketplace add nvlsoft-ca/nexos-codex#v0.2.0-beta.2
 claude plugin install nexos@nexos
 ```
 
-The `nexos` and `nexos-dev` plugins start with `0.2.0-beta.1`. Earlier tags contain only `nexo`; Claude Code support starts with `0.1.0-beta.4`.
+The `nexos` and `nexos-dev` plugins start with `0.2.0-beta.2`; `v0.2.0-beta.1` was published without its dot-prefixed manifests and cannot be installed. Earlier tags contain only `nexo`; Claude Code support starts with `0.1.0-beta.4`.
 
 See [RELEASE_NOTES.md](RELEASE_NOTES.md) for compatibility and [SECURITY.md](SECURITY.md) for reporting guidance.

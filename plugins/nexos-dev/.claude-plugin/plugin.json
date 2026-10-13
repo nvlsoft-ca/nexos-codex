@@ -1,0 +1,30 @@
+{
+  "name": "nexos-dev",
+  "displayName": "Nexos Dev",
+  "version": "0.2.0-beta.2",
+  "description": "Manage work in the Nexos development service and submit product feedback through its MCP server.",
+  "author": {
+    "name": "NVLSoft",
+    "url": "https://github.com/nvlsoft-ca"
+  },
+  "homepage": "https://dev.nexos.ca",
+  "repository": "https://github.com/nvlsoft-ca/nexos-codex",
+  "license": "LicenseRef-NVLSoft-Beta-1.0",
+  "keywords": [
+    "nexos",
+    "work-tracking",
+    "issues",
+    "projects",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": {
+    "nexos-dev": {
+      "type": "http",
+      "url": "https://mcp.dev.nexos.ca/mcp",
+      "headers": {
+        "Authorization": "Bearer ${NEXO_MCP_TOKEN}"
+      }
+    }
+  }
+}

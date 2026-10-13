@@ -1,0 +1,41 @@
+{
+  "name": "nexos",
+  "version": "0.2.0-beta.2",
+  "description": "Manage Nexos work and submit product feedback through the Nexos MCP server at nexos.ca.",
+  "author": {
+    "name": "NVLSoft",
+    "url": "https://github.com/nvlsoft-ca"
+  },
+  "homepage": "https://nexos.ca",
+  "repository": "https://github.com/nvlsoft-ca/nexos-codex",
+  "license": "LicenseRef-NVLSoft-Beta-1.0",
+  "keywords": [
+    "nexos",
+    "work-tracking",
+    "issues",
+    "projects",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Nexos",
+    "shortDescription": "Plan and track your team's work in Nexos.",
+    "longDescription": "Read and manage Nexos workspaces, teams, projects, milestones, issues, labels, comments, and product feedback from Codex using the current user's permissions and canonical Issue and Milestone links.",
+    "developerName": "NVLSoft",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show my active Nexos issues.",
+      "Create an issue in Nexos for this task.",
+      "Send feedback about Nexos.",
+      "Update the related Nexos issue with our progress."
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/nexos.png",
+    "logo": "./assets/nexos.png"
+  },
+  "mcpServers": "./.mcp.json"
+}

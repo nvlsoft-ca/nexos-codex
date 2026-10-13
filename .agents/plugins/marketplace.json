@@ -1,0 +1,32 @@
+{
+  "name": "nexos",
+  "interface": {
+    "displayName": "Nexos Beta"
+  },
+  "plugins": [
+    {
+      "name": "nexos",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nexos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "nexos-dev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nexos-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
